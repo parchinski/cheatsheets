@@ -11,10 +11,30 @@ body {
   font-size: 16px;
   font-weight: normal;
   /* Same as above */
-  font: normal 16px Arial, Helvetica, sans-serif;
+  font:
+    normal 16px Arial,
+    Helvetica,
+    sans-serif;
 
   line-height: 1.6em;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: black;
 }
 
 .container {
@@ -46,5 +66,43 @@ body {
 
   margin-top: 20px;
   margin: 20px 0;
-  /* Video Position 33:15 */
 }
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  padding-left: 20px;
+  list-style: square;
+  list-style: none;
+}
+
+.categories li {
+  padding: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url("../images/check.jpg");
+}
+/* Video Position => 44:43 */
